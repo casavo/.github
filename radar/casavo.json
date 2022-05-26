@@ -1,0 +1,30 @@
+[
+	{
+		"name": "structurizr",
+		"ring": "adopt",
+		"quadrant": "tools",
+		"isNew": "FALSE",
+		"description": "Diagrams for architecture ..."
+	},
+	{
+		"name": "Conventional commit",
+		"ring": "trial",
+		"quadrant": "techniques",
+		"isNew": "FALSE",
+		"description": "Easy set of rules for creating an explicit commit history"
+	},
+	{
+		"name": "Amazon Web Services",
+		"ring": "adopt",
+		"quadrant": "platforms",
+		"isNew": "FALSE",
+		"description": "Single place for many services ..."
+	},
+	{
+		"name": "Elixir",
+		"ring": "adopt",
+		"quadrant": "languages & frameworks",
+		"isNew": "FALSE",
+		"description": "More and more project inside Casavo uses ..."
+	}
+]
