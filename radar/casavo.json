@@ -30,7 +30,7 @@
 	{
 		"name": "Commanded",
 		"ring": "adopt",
-		"quadrant": "frameworks",
+		"quadrant": "languages & frameworks",
 		"isNew": "FALSE",
 		"description": "Reference to build CQRS/ES in Elixir"
 	}
