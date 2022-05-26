@@ -26,5 +26,12 @@
 		"quadrant": "languages & frameworks",
 		"isNew": "FALSE",
 		"description": "More and more project inside Casavo uses ..."
+	},
+	{
+		"name": "Commanded",
+		"ring": "adopt",
+		"quadrant": "frameworks",
+		"isNew": "FALSE",
+		"description": "Reference to build CQRS/ES in Elixir"
 	}
 ]
