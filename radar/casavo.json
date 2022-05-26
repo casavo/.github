@@ -57,7 +57,7 @@
 	},
 	{
 		"name": "Kotlin",
-		"rind": "adopt",
+		"ring": "adopt",
 		"quadrant": "languages & frameworks",
 		"isNew": "FALSE",
 		"description": "Viable alternative to Java on back end side (be wise when choosing a framework), needed on mobile app"
