@@ -33,5 +33,33 @@
 		"quadrant": "languages & frameworks",
 		"isNew": "FALSE",
 		"description": "Reference to build CQRS/ES in Elixir"
+	},
+	{
+		"name": "Rust",
+		"ring": "hold",
+		"quadrant": "languages & frameworks",
+		"isNew": "FALSE",
+		"description": "Too few people with strong knowledges"
+	},
+	{
+		"name": "PHP",
+		"ring": "hold",
+		"quadrant": "languages & frameworks",
+		"isNew": "FALSE",
+		"description": ""
+	},
+	{
+		"name": "JavaScript",
+		"ring": "hold",
+		"quadrant": "languages & frameworks",
+		"isNew": "FALSE",
+		"description": "Please use TypeScript instead"
+	},
+	{
+		"name": "Kotlin",
+		"rind": "adopt",
+		"quadrant": "languages & frameworks",
+		"isNew": "FALSE",
+		"description": "Viable alternative to Java on back end side (be wise when choosing a framework), needed on mobile app"
 	}
 ]
