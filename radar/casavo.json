@@ -28,7 +28,7 @@
 		"description": "More and more project inside Casavo uses ..."
 	},
 	{
-		"name": "Commanded",
+		"name": "[Elixir] Commanded",
 		"ring": "adopt",
 		"quadrant": "languages & frameworks",
 		"isNew": "FALSE",
@@ -61,5 +61,19 @@
 		"quadrant": "languages & frameworks",
 		"isNew": "FALSE",
 		"description": "Viable alternative to Java on back end side (be wise when choosing a framework), needed on mobile app"
+	}, 
+	{
+		"name": "[Kotlin] Quarkus",
+		"ring": "trial",
+		"quadrant": "languages & frameworks",
+		"isNew": "TRUE",
+		"description": "Nice alternative to Spring, describe here why ready for use, but not completely proven to be in adopt"
+	},
+	{
+		"name": "[Kotlin] JobRunr",
+		"ring": "trial",
+		"quadrant": "languages & frameworks",
+		"isNew": "TRUE",
+		"description": "Solid framework for background jobs in Java world ..."
 	}
 ]
