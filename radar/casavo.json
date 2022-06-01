@@ -49,6 +49,20 @@
 		"description": ""
 	},
 	{
+		"name": "TypeScript",
+		"ring": "hold",
+		"quadrant": "languages & frameworks",
+		"isNew": "FALSE",
+		"description": "The replacement for plain JavaScript"
+	},
+	{
+		"name": "NextJs",
+		"ring": "hold",
+		"quadrant": "languages & frameworks",
+		"isNew": "FALSE",
+		"description": "When you need more than a single page application"	
+	},
+	{
 		"name": "JavaScript",
 		"ring": "hold",
 		"quadrant": "languages & frameworks",
