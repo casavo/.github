@@ -178,14 +178,14 @@
 		"name": "Prometheus",
 		"ring": "adopt",
 		"quadrant": "tools",
-		"isNew": "TRUE",
+		"isNew": "FALSE",
 		"description": "Monitoring system & time series database"
 	},
 	{
 		"name": "Grafana",
 		"ring": "adopt",
 		"quadrant": "tools",
-		"isNew": "TRUE",
+		"isNew": "FALSE",
 		"description": "Visualize observability metrics"
 	}
 ]
