@@ -89,5 +89,40 @@
 		"quadrant": "languages & frameworks",
 		"isNew": "TRUE",
 		"description": "Solid framework for background jobs in Java world ..."
+	},
+	{
+		"name": "Python",
+		"ring": "adopt",
+		"quadrant":"languages & frameworks",
+		"isNew": "FALSE",
+		"description": "reference language for application development and data management"
+	},
+	{
+		"name": "[Python] FastAPI",
+		"ring": "adopt",
+		"quadrant":"languages & frameworks",
+		"isNew": "FALSE",
+		"description": "web framework for building APIs"
+	},
+	{
+		"name": "[Python] SQLAlchemy",
+		"ring": "adopt",
+		"quadrant":"languages & frameworks",
+		"isNew": "FALSE",
+		"description": "SQL toolkit and Object Relational Mapper"
+	},
+	{
+		"name": "[Python] celery",
+		"ring": "adopt",
+		"quadrant":"languages & frameworks",
+		"isNew": "FALSE",
+		"description": "asynchronous task queue or job queue which is based on distributed message passing "
+	},
+	{
+		"name": "[Python] Emmett",
+		"ring": "assess",
+		"quadrant":"languages & frameworks",
+		"isNew": "FALSE",
+		"description": "full stack web framework"
 	}
 ]
