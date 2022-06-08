@@ -124,5 +124,68 @@
 		"quadrant":"languages & frameworks",
 		"isNew": "FALSE",
 		"description": "full stack web framework"
+	},
+	{
+		"name": "Drone",
+		"ring": "hold",
+		"quadrant": "platforms",
+		"isNew": "FALSE",
+		"description": "Superseded by github actions"
+	},
+	{
+		"name": "Github Actions",
+		"ring": "adopt",
+		"quadrant": "platforms",
+		"isNew": "TRUE",
+		"description": "Automated software workflows"
+	},
+	{
+		"name": "ArgoCD",
+		"ring": "hold",
+		"quadrant": "tools",
+		"isNew": "TRUE",
+		"description": "Superseded by helm"
+	},
+	{
+		"name": "Kustomization",
+		"ring": "hold",
+		"quadrant": "tools",
+		"isNew": "TRUE",
+		"description": "Superseded by helm"
+	},
+	{
+		"name": "Helm",
+		"ring": "adopt",
+		"quadrant": "tools",
+		"isNew": "TRUE",
+		"description": "Manage kubernetes applications"
+	},
+	{
+		"name": "EFK",
+		"ring": "hold",
+		"quadrant": "tools",
+		"isNew": "TRUE",
+		"description": "The stack Elasticsearch, Flutent Kibana has been superseded in favor of Loki + Grafana"
+	},
+	{
+		"name": "Loki",
+		"ring": "adopt",
+		"quadrant": "tools",
+		"isNew": "TRUE",
+		"description": "Log aggregation system powered by Grafana Labs"
+	},
+	{
+		"name": "Prometheus",
+		"ring": "adopt",
+		"quadrant": "tools",
+		"isNew": "FALSE",
+		"description": "Monitoring system & time series database"
+	},
+	{
+		"name": "Grafana",
+		"ring": "adopt",
+		"quadrant": "tools",
+		"isNew": "FALSE",
+		"description": "Visualize observability metrics"
 	}
 ]
