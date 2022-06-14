@@ -50,24 +50,108 @@
 	},
 	{
 		"name": "TypeScript",
-		"ring": "hold",
+		"ring": "adopt",
 		"quadrant": "languages & frameworks",
 		"isNew": "FALSE",
 		"description": "The replacement for plain JavaScript"
 	},
 	{
-		"name": "NextJs",
-		"ring": "hold",
+		"name": "GraphQL",
+		"ring": "adopt",
 		"quadrant": "languages & frameworks",
 		"isNew": "FALSE",
-		"description": "When you need more than a single page application"	
+		"description": "Data query and manipulation language for APIs"
 	},
 	{
-		"name": "JavaScript",
+		"name": "[GraphQL] Apollo",
 		"ring": "hold",
+		"quadrant":"languages & frameworks",
+		"isNew": "TRUE",
+		"description": "Reference implementation for GraphQL on frontend and backend side, not actually practical to be used, other simpler solutions may be adeguate"
+	},
+	{
+		"name": "Hasura",
+		"ring": "adopt",
+		"quadrant": "tools",
+		"isNew": "FALSE",
+		"description": "Allows to provide GraphQL API starting from databases with simple configuration and no code."
+	},
+	{
+		"name": "Next.js",
+		"ring": "adopt",
 		"quadrant": "languages & frameworks",
 		"isNew": "FALSE",
-		"description": "Please use TypeScript instead"
+		"description": "When you need more than a single page application."	
+	},
+	{
+		"name": "React",
+		"ring": "adopt",
+		"quadrant": "languages & frameworks",
+		"isNew": "FALSE",
+		"description": "The one and only library for component-based user interfaces. More standard way to build HTML than Angular."
+	},
+	{
+		"name": "Redux",
+		"ring": "trial",
+		"quadrant": "languages & frameworks",
+		"isNew": "FALSE",
+		"description": "Needed for mobile application, to be evaluated on web side as state manager for React (sometime a simpler solution could be enough)"
+	},
+	{
+		"name": "React Router",
+		"ring": "adopt",
+		"quadrant":"languages & frameworks",
+		"isNew": "FALSE",
+		"description": "https://reactrouter.com - To be used (react-router-dom) on SPA not leveraging on full Next.js stack"
+	},
+	{
+		"name": "React Bricks",
+		"ring": "adopt",
+		"quadrant":"languages & frameworks",
+		"isNew": "FALSE",
+		"description": "CMS for Next.js based on React components. https://reactbricks.com"
+	},
+	{
+		"name": "Emotion", 
+		"ring": "adopt",
+		"quadrant": "languages & frameworks",
+		"isNew": "FALSE",
+		"description": "Library designed for writing css styles with JavaScript. Currently evaluating if can be replaced by Vanilla Extract"
+	},
+	{
+		"name": "Vanilla Extract",
+		"ring": "assess",
+		"quadrant":"languages & frameworks",
+		"isNew": "TRUE",
+		"description": "Zero-runtime CSS-in-JS library with build-time styles extraction. https://vanilla-extract.style -- Currently evaluating if can replace Emotion" 
+	},
+	{
+		"name": "Stitches",
+		"ring": "hold",
+		"quadrant": "languages & frameworks",
+		"isNew": "TRUE",
+		"description": "https://stitches.dev - Tried as replacement for Emotion, community stopped their development efforts. Switch back to Emotion or Vanilla Extract"
+	},
+	{
+		"name": "Formik & Yup",
+		"ring": "adopt",
+		"quadrant":"languages & frameworks",
+		"isNew": "FALSE",
+		"description": "Build forms in React with input validation, formatting, masking, arrays, and error handling -- https://formik.org & https://github.com/jquense/yup"
+	},
+	{
+		"name": "Vite",
+		"ring": "adopt",
+		"quadrant": "tools",
+		"isNew": "TRUE",
+		"description": "Build system for SPAs with dev server, see https://vitejs.dev - Could be used when starting a new project as replacement for simple create-react-app and when you do no need the full Next.js stack"
+	},
+	{
+		"name": "Cypress",
+		"ring": "adopt",
+		"quadrant": "tools",
+		"isNew": "FALSE",
+		"description": "Test automation for modern web applications, see https://www.cypress.io - Used by now for \"e2e\" testsing, not for component testing."
 	},
 	{
 		"name": "Kotlin",
