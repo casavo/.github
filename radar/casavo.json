@@ -28,7 +28,7 @@
     "description": "More and more project inside Casavo uses ..."
   },
   {
-    "name": "[Elixir] Commanded",
+    "name": "Commanded",
     "ring": "adopt",
     "quadrant": "languages & frameworks",
     "isNew": "FALSE",
@@ -63,7 +63,7 @@
     "description": "Data query and manipulation language for APIs"
   },
   {
-    "name": "[GraphQL] Apollo",
+    "name": "Apollo",
     "ring": "hold",
     "quadrant": "languages & frameworks",
     "isNew": "TRUE",
@@ -161,18 +161,18 @@
     "description": "Viable alternative to Java on back end side (be wise when choosing a framework), needed on mobile app"
   },
   {
-    "name": "[Kotlin] Quarkus",
+    "name": "Quarkus",
     "ring": "trial",
     "quadrant": "languages & frameworks",
     "isNew": "TRUE",
-    "description": "Nice alternative to Spring, describe here why ready for use, but not completely proven to be in adopt"
+    "description": "For Kotlin, nice alternative to Spring, describe here why ready for use, but not completely proven to be in adopt"
   },
   {
-    "name": "[Kotlin] JobRunr",
+    "name": "JobRunr",
     "ring": "trial",
     "quadrant": "languages & frameworks",
     "isNew": "TRUE",
-    "description": "Solid framework for background jobs in Java world ..."
+    "description": "For Kotlin, solid framework for background jobs in Java world ..."
   },
   {
     "name": "Python",
@@ -182,32 +182,32 @@
     "description": "reference language for application development and data management"
   },
   {
-    "name": "[Python] FastAPI",
+    "name": "FastAPI",
     "ring": "adopt",
     "quadrant": "languages & frameworks",
     "isNew": "FALSE",
-    "description": "web framework for building APIs"
+    "description": "Python web framework for building APIs"
   },
   {
-    "name": "[Python] SQLAlchemy",
+    "name": "SQLAlchemy",
     "ring": "adopt",
     "quadrant": "languages & frameworks",
     "isNew": "FALSE",
-    "description": "SQL toolkit and Object Relational Mapper"
+    "description": "Python SQL toolkit and Object Relational Mapper"
   },
   {
-    "name": "[Python] celery",
+    "name": "Celery",
     "ring": "adopt",
     "quadrant": "languages & frameworks",
     "isNew": "FALSE",
-    "description": "asynchronous task queue or job queue which is based on distributed message passing "
+    "description": "Asynchronous task queue or job queue which is based on distributed message passing for Python"
   },
   {
-    "name": "[Python] Emmett",
+    "name": "Emmett",
     "ring": "assess",
     "quadrant": "languages & frameworks",
     "isNew": "FALSE",
-    "description": "full stack web framework"
+    "description": "Full stack web framework for Python"
   },
   {
     "name": "Drone",
