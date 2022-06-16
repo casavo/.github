@@ -404,5 +404,47 @@
     "quadrant": "techniques",
     "isNew": "FALSE",
     "description": "As in eXtreme Programming definition, teams must have common sets of coding practice, allowing to understand code with ease and encouraging collective ownership"
+  }, 
+  {
+    "name": "Domain-Driven Design",
+    "ring": "adopt",
+    "quadrant": "techniques",
+    "isNew": "FALSE",
+    "description": "Domain-driven design (DDD) is the main approach of our software development, helping to support the evolution of our software systems. We leverage strategic DDD to ensure that our architecture remains focused on business capabilities and that we invest the correct effort on different subdomains, this also includes using tactical DDD patterns in our core subdomains."
+  },
+  {
+    "name": "CQRS",
+    "ring": "adopt",
+    "quadrant": "techniques",
+    "isNew": "FALSE",
+    "description": "Command Query Responsibility Segregation is an architectural pattern that enables multiple representation of the same data in different persistent models. It is suited to complex domains and its obligatory for systems bases on event-sourcing."
+  }, 
+  {
+    "name": "Event Sourcing",
+    "ring": "adopt",
+    "quadrant": "techniques",
+    "isNew": "FALSE",
+    "description": "The event-sourced domain model, also known as event-sourcing, is one of the DDD tactical patterns. When using event-sourcing the state of a business entity is persisted as a sequence of state-changing events. It is suited for complex domains and the main advantages it brings are deep insight into the system's state and behavior, a strongly consistent audit log and advanced optimistic concurrency management.  Applications must use Command Query Responsibility Segregation (CQRS) to implement queries to reconstruct the state of the business entities."
+  },
+  {
+    "name": "Event Storming",
+    "ring": "adopt",
+    "quadrant": "techniques",
+    "isNew": "FALSE",
+    "description": "Event storming is a technique for exploring complex domains and the interaction between business actors. We run event storming sessions every time we need to re-align our vision and understandings, to find new hotspots or to discover unexplored parts of our business domain."
+  },
+  {
+    "name": "Clean Architecture",
+    "ring": "adopt",
+    "quadrant": "techniques",
+    "isNew": "FALSE", 
+    "description": "AKA Hexagonal Architecture, AKA Onion Architecture. Though these definitions vary somewhat in their details, they are very similar. They all have the same objective, which is the separation of concerns."
+  },
+  {
+    "name": "Lightweight Approach to RFCs/ADRs",
+    "ring": "adopt",
+    "quadrant": "techniques",
+    "isNew": "FALSE",
+    "description": "We use simple standardized templates across many teams as well as version control to capture RfCs (infrastructure) and ADRs (architecture) -- https://www.thoughtworks.com/radar/techniques/lightweight-approach-to-rfcs"
   }
 ]
