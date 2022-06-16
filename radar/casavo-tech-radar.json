@@ -7,13 +7,6 @@
     "description": "Diagrams for architecture ..."
   },
   {
-    "name": "Conventional commit",
-    "ring": "trial",
-    "quadrant": "techniques",
-    "isNew": "FALSE",
-    "description": "Easy set of rules for creating an explicit commit history"
-  },
-  {
     "name": "Amazon Web Services",
     "ring": "adopt",
     "quadrant": "platforms",
@@ -355,5 +348,61 @@
     "isNew": "FALSE",
     "quadrant": "tools",
     "description": "The localization platform used in web and mobile projects"
+  },
+  {
+    "name": "Conventional Commits",
+    "ring": "trial",
+    "quadrant": "techniques",
+    "isNew": "FALSE",
+    "description": "Easy set of rules for creating an explicit commit history. Helpful as proxy of internal quality (ideally more `feat` than `fix` and constant amount of `refactor` -- https://www.conventionalcommits.org/"
+  },
+  {
+    "name": "Pair & Mob Programming",
+    "ring": "adopt",
+    "quadrant": "techniques",
+    "isNew": "FALSE",
+    "description": "We encourage people sit at the same computer and collaborate on the same code at the same time. This software development approach helps us to share knowledges in a practical way."
+  },
+  {
+    "name": "Test-Driven Development",
+    "ring": "adopt",
+    "quadrant": "techniques",
+    "isNew": "FALSE",
+    "description": ""
+  },
+  {
+    "name": "Code Reviews",
+    "ring": "adopt",
+    "quadrant": "techniques",
+    "isNew": "FALSE",
+    "description": "Peer review is intended to find mistakes overlooked in software development, improving the overall quality of software. Reviews can be done in various ways such as pair programming or pull request."
+  },
+  {
+    "name": "Ship / Show / Ask",
+    "ring": "trial",
+    "quadrant": "techniques",
+    "isNew": "TRUE",
+    "description": "A branching strategy that combines the features of Pull Requests with the ability to keep shipping changes. Changes are categorized as either Ship (merge into mainline without review), Show (open a pull request for review, but merge into mainline immediately), or Ask (open a pull request for discussion before merging) -- from https://martinfowler.com/articles/ship-show-ask.html"
+  },
+  {
+    "name": "Definition of Production Readiness",
+    "ring": "adopt",
+    "quadrant": "techniques",
+    "isNew": "FALSE",
+    "description": "Support teams that pratices the *you build it, you run it* principle in assessing and preparing the operational readiness of new services."
+  },
+  {
+    "name": "Consumer-Driven Contract Testing",
+    "ring": "trial",
+    "quadrant": "techniques",
+    "isNew": "TRUE",
+    "description": "Ensures that a provider is compatible with the expectations that the consumer has of it. Could be not viable for some project due to missing binding of reference implementation, [Pact](https://docs.pact.io/)"
+  },
+  {
+    "name": "Coding Standard",
+    "ring": "adopt",
+    "quadrant": "techniques",
+    "isNew": "FALSE",
+    "description": "As in eXtreme Programming definition, teams must have common sets of coding practice, allowing to understand code with ease and encouraging collective ownership"
   }
 ]
