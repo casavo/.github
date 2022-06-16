@@ -1,178 +1,10 @@
 [
   {
-    "name": "Apollo",
-    "ring": "hold",
-    "quadrant": "languages & frameworks",
-    "isNew": "TRUE",
-    "description": "Reference implementation for GraphQL on frontend and backend side, not actually practical to be used, other simpler solutions may be adeguate"
-  },
-  {
-    "name": "Celery",
+    "name": "structurizr",
     "ring": "adopt",
-    "quadrant": "languages & frameworks",
+    "quadrant": "tools",
     "isNew": "FALSE",
-    "description": "Asynchronous task queue or job queue which is based on distributed message passing for Python"
-  },
-  {
-    "name": "Commanded",
-    "ring": "adopt",
-    "quadrant": "languages & frameworks",
-    "isNew": "FALSE",
-    "description": "Reference to build CQRS/ES in Elixir"
-  },
-  {
-    "name": "Elixir",
-    "ring": "adopt",
-    "quadrant": "languages & frameworks",
-    "isNew": "FALSE",
-    "description": "More and more project inside Casavo uses ..."
-  },
-  {
-    "name": "Emmett",
-    "ring": "assess",
-    "quadrant": "languages & frameworks",
-    "isNew": "FALSE",
-    "description": "Full stack web framework for Python"
-  },
-  {
-    "name": "Emotion",
-    "ring": "adopt",
-    "quadrant": "languages & frameworks",
-    "isNew": "FALSE",
-    "description": "Library designed for writing css styles with JavaScript. Currently evaluating if can be replaced by Vanilla Extract"
-  },
-  {
-    "name": "FastAPI",
-    "ring": "adopt",
-    "quadrant": "languages & frameworks",
-    "isNew": "FALSE",
-    "description": "Python web framework for building APIs"
-  },
-  {
-    "name": "Formik & Yup",
-    "ring": "adopt",
-    "quadrant": "languages & frameworks",
-    "isNew": "FALSE",
-    "description": "Build forms in React with input validation, formatting, masking, arrays, and error handling -- https://formik.org & https://github.com/jquense/yup"
-  },
-  {
-    "name": "GraphQL",
-    "ring": "adopt",
-    "quadrant": "languages & frameworks",
-    "isNew": "FALSE",
-    "description": "Data query and manipulation language for APIs"
-  },
-  {
-    "name": "JobRunr",
-    "ring": "trial",
-    "quadrant": "languages & frameworks",
-    "isNew": "TRUE",
-    "description": "For Kotlin, solid framework for background jobs in Java world ..."
-  },
-  {
-    "name": "Kotlin",
-    "ring": "adopt",
-    "quadrant": "languages & frameworks",
-    "isNew": "FALSE",
-    "description": "Viable alternative to Java on back end side (be wise when choosing a framework), needed on mobile app"
-  },
-  {
-    "name": "Next.js",
-    "ring": "adopt",
-    "quadrant": "languages & frameworks",
-    "isNew": "FALSE",
-    "description": "When you need more than a single page application."
-  },
-  {
-    "name": "PHP",
-    "ring": "hold",
-    "quadrant": "languages & frameworks",
-    "isNew": "FALSE",
-    "description": ""
-  },
-  {
-    "name": "Python",
-    "ring": "adopt",
-    "quadrant": "languages & frameworks",
-    "isNew": "FALSE",
-    "description": "reference language for application development and data management"
-  },
-  {
-    "name": "Quarkus",
-    "ring": "trial",
-    "quadrant": "languages & frameworks",
-    "isNew": "TRUE",
-    "description": "For Kotlin, nice alternative to Spring, describe here why ready for use, but not completely proven to be in adopt"
-  },
-  {
-    "name": "React",
-    "ring": "adopt",
-    "quadrant": "languages & frameworks",
-    "isNew": "FALSE",
-    "description": "The one and only library for component-based user interfaces. More standard way to build HTML than Angular."
-  },
-  {
-    "name": "React Bricks",
-    "ring": "adopt",
-    "quadrant": "languages & frameworks",
-    "isNew": "FALSE",
-    "description": "CMS for Next.js based on React components. https://reactbricks.com"
-  },
-  {
-    "name": "React Native",
-    "ring": "adopt",
-    "quadrant": "languages & frameworks",
-    "isNew": "FALSE",
-    "description": "Framework to create multi platform mobile apps"
-  },
-  {
-    "name": "React Router",
-    "ring": "adopt",
-    "quadrant": "languages & frameworks",
-    "isNew": "FALSE",
-    "description": "https://reactrouter.com - To be used (react-router-dom) on SPA not leveraging on full Next.js stack"
-  },
-  {
-    "name": "Redux",
-    "ring": "trial",
-    "quadrant": "languages & frameworks",
-    "isNew": "FALSE",
-    "description": "Needed for mobile application, to be evaluated on web side as state manager for React (sometime a simpler solution could be enough)"
-  },
-  {
-    "name": "Rust",
-    "ring": "hold",
-    "quadrant": "languages & frameworks",
-    "isNew": "FALSE",
-    "description": "Too few people with strong knowledges"
-  },
-  {
-    "name": "SQLAlchemy",
-    "ring": "adopt",
-    "quadrant": "languages & frameworks",
-    "isNew": "FALSE",
-    "description": "Python SQL toolkit and Object Relational Mapper"
-  },
-  {
-    "name": "Stitches",
-    "ring": "hold",
-    "quadrant": "languages & frameworks",
-    "isNew": "TRUE",
-    "description": "https://stitches.dev - Tried as replacement for Emotion, community stopped their development efforts. Switch back to Emotion or Vanilla Extract"
-  },
-  {
-    "name": "TypeScript",
-    "ring": "adopt",
-    "quadrant": "languages & frameworks",
-    "isNew": "FALSE",
-    "description": "The replacement for plain JavaScript"
-  },
-  {
-    "name": "Vanilla Extract",
-    "ring": "assess",
-    "quadrant": "languages & frameworks",
-    "isNew": "TRUE",
-    "description": "Zero-runtime CSS-in-JS library with build-time styles extraction. https://vanilla-extract.style -- Currently evaluating if can replace Emotion"
+    "description": "Diagrams for architecture ..."
   },
   {
     "name": "Amazon Web Services",
@@ -182,18 +14,193 @@
     "description": "Single place for many services ..."
   },
   {
-    "name": "Argo Workflows",
+    "name": "Elixir",
     "ring": "adopt",
-    "isNew": "TRUE",
-    "quadrant": "platforms",
-    "description": "Container-native workflow engine for orchestrating parallel jobs on Kubernetes - https://argoproj.github.io/workflows/"
+    "quadrant": "languages & frameworks",
+    "isNew": "FALSE",
+    "description": "More and more project inside Casavo uses ..."
   },
   {
-    "name": "ArgoCD",
+    "name": "Commanded",
+    "ring": "adopt",
+    "quadrant": "languages & frameworks",
+    "isNew": "FALSE",
+    "description": "Reference to build CQRS/ES in Elixir"
+  },
+  {
+    "name": "Rust",
     "ring": "hold",
-    "quadrant": "platforms",
+    "quadrant": "languages & frameworks",
+    "isNew": "FALSE",
+    "description": "Too few people with strong knowledges"
+  },
+  {
+    "name": "PHP",
+    "ring": "hold",
+    "quadrant": "languages & frameworks",
+    "isNew": "FALSE",
+    "description": ""
+  },
+  {
+    "name": "TypeScript",
+    "ring": "adopt",
+    "quadrant": "languages & frameworks",
+    "isNew": "FALSE",
+    "description": "The replacement for plain JavaScript"
+  },
+  {
+    "name": "GraphQL",
+    "ring": "adopt",
+    "quadrant": "languages & frameworks",
+    "isNew": "FALSE",
+    "description": "Data query and manipulation language for APIs"
+  },
+  {
+    "name": "Apollo",
+    "ring": "hold",
+    "quadrant": "languages & frameworks",
     "isNew": "TRUE",
-    "description": "Superseded by helm"
+    "description": "Reference implementation for GraphQL on frontend and backend side, not actually practical to be used, other simpler solutions may be adeguate"
+  },
+  {
+    "name": "Hasura",
+    "ring": "adopt",
+    "quadrant": "tools",
+    "isNew": "FALSE",
+    "description": "Allows to provide GraphQL API starting from databases with simple configuration and no code."
+  },
+  {
+    "name": "Next.js",
+    "ring": "adopt",
+    "quadrant": "languages & frameworks",
+    "isNew": "FALSE",
+    "description": "When you need more than a single page application."
+  },
+  {
+    "name": "React",
+    "ring": "adopt",
+    "quadrant": "languages & frameworks",
+    "isNew": "FALSE",
+    "description": "The one and only library for component-based user interfaces. More standard way to build HTML than Angular."
+  },
+  {
+    "name": "Redux",
+    "ring": "trial",
+    "quadrant": "languages & frameworks",
+    "isNew": "FALSE",
+    "description": "Needed for mobile application, to be evaluated on web side as state manager for React (sometime a simpler solution could be enough)"
+  },
+  {
+    "name": "React Router",
+    "ring": "adopt",
+    "quadrant": "languages & frameworks",
+    "isNew": "FALSE",
+    "description": "https://reactrouter.com - To be used (react-router-dom) on SPA not leveraging on full Next.js stack"
+  },
+  {
+    "name": "React Bricks",
+    "ring": "adopt",
+    "quadrant": "languages & frameworks",
+    "isNew": "FALSE",
+    "description": "CMS for Next.js based on React components. https://reactbricks.com"
+  },
+  {
+    "name": "Emotion",
+    "ring": "adopt",
+    "quadrant": "languages & frameworks",
+    "isNew": "FALSE",
+    "description": "Library designed for writing css styles with JavaScript. Currently evaluating if can be replaced by Vanilla Extract"
+  },
+  {
+    "name": "Vanilla Extract",
+    "ring": "assess",
+    "quadrant": "languages & frameworks",
+    "isNew": "TRUE",
+    "description": "Zero-runtime CSS-in-JS library with build-time styles extraction. https://vanilla-extract.style -- Currently evaluating if can replace Emotion"
+  },
+  {
+    "name": "Stitches",
+    "ring": "hold",
+    "quadrant": "languages & frameworks",
+    "isNew": "TRUE",
+    "description": "https://stitches.dev - Tried as replacement for Emotion, community stopped their development efforts. Switch back to Emotion or Vanilla Extract"
+  },
+  {
+    "name": "Formik & Yup",
+    "ring": "adopt",
+    "quadrant": "languages & frameworks",
+    "isNew": "FALSE",
+    "description": "Build forms in React with input validation, formatting, masking, arrays, and error handling -- https://formik.org & https://github.com/jquense/yup"
+  },
+  {
+    "name": "Vite",
+    "ring": "adopt",
+    "quadrant": "tools",
+    "isNew": "TRUE",
+    "description": "Build system for SPAs with dev server, see https://vitejs.dev - Could be used when starting a new project as replacement for simple create-react-app and when you do no need the full Next.js stack"
+  },
+  {
+    "name": "Cypress",
+    "ring": "adopt",
+    "quadrant": "tools",
+    "isNew": "FALSE",
+    "description": "Test automation for modern web applications, see https://www.cypress.io - Used by now for \"e2e\" testsing, not for component testing."
+  },
+  {
+    "name": "Kotlin",
+    "ring": "adopt",
+    "quadrant": "languages & frameworks",
+    "isNew": "FALSE",
+    "description": "Viable alternative to Java on back end side (be wise when choosing a framework), needed on mobile app"
+  },
+  {
+    "name": "Quarkus",
+    "ring": "trial",
+    "quadrant": "languages & frameworks",
+    "isNew": "TRUE",
+    "description": "For Kotlin, nice alternative to Spring, describe here why ready for use, but not completely proven to be in adopt"
+  },
+  {
+    "name": "JobRunr",
+    "ring": "trial",
+    "quadrant": "languages & frameworks",
+    "isNew": "TRUE",
+    "description": "For Kotlin, solid framework for background jobs in Java world ..."
+  },
+  {
+    "name": "Python",
+    "ring": "adopt",
+    "quadrant": "languages & frameworks",
+    "isNew": "FALSE",
+    "description": "reference language for application development and data management"
+  },
+  {
+    "name": "FastAPI",
+    "ring": "adopt",
+    "quadrant": "languages & frameworks",
+    "isNew": "FALSE",
+    "description": "Python web framework for building APIs"
+  },
+  {
+    "name": "SQLAlchemy",
+    "ring": "adopt",
+    "quadrant": "languages & frameworks",
+    "isNew": "FALSE",
+    "description": "Python SQL toolkit and Object Relational Mapper"
+  },
+  {
+    "name": "Celery",
+    "ring": "adopt",
+    "quadrant": "languages & frameworks",
+    "isNew": "FALSE",
+    "description": "Asynchronous task queue or job queue which is based on distributed message passing for Python"
+  },
+  {
+    "name": "Emmett",
+    "ring": "assess",
+    "quadrant": "languages & frameworks",
+    "isNew": "FALSE",
+    "description": "Full stack web framework for Python"
   },
   {
     "name": "Drone",
@@ -203,13 +210,6 @@
     "description": "Superseded by github actions"
   },
   {
-    "name": "EFK",
-    "ring": "hold",
-    "quadrant": "platforms",
-    "isNew": "TRUE",
-    "description": "The stack Elasticsearch, Flutent Kibana has been superseded in favor of Loki + Grafana"
-  },
-  {
     "name": "Github Actions",
     "ring": "adopt",
     "quadrant": "platforms",
@@ -217,11 +217,32 @@
     "description": "Automated software workflows"
   },
   {
-    "name": "Grafana",
-    "ring": "adopt",
+    "name": "ArgoCD",
+    "ring": "hold",
     "quadrant": "platforms",
-    "isNew": "FALSE",
-    "description": "Visualize observability metrics"
+    "isNew": "TRUE",
+    "description": "Superseded by helm"
+  },
+  {
+    "name": "Kustomization",
+    "ring": "hold",
+    "quadrant": "tools",
+    "isNew": "TRUE",
+    "description": "Superseded by helm"
+  },
+  {
+    "name": "Helm",
+    "ring": "adopt",
+    "quadrant": "tools",
+    "isNew": "TRUE",
+    "description": "Manage kubernetes applications"
+  },
+  {
+    "name": "EFK",
+    "ring": "hold",
+    "quadrant": "platforms",
+    "isNew": "TRUE",
+    "description": "The stack Elasticsearch, Flutent Kibana has been superseded in favor of Loki + Grafana"
   },
   {
     "name": "Loki",
@@ -238,39 +259,95 @@
     "description": "Monitoring system & time series database"
   },
   {
-    "name": "CQRS",
+    "name": "Grafana",
     "ring": "adopt",
-    "quadrant": "techniques",
+    "quadrant": "platforms",
     "isNew": "FALSE",
-    "description": "Command Query Responsibility Segregation is an architectural pattern that enables multiple representation of the same data in different persistent models. It is suited to complex domains and its obligatory for systems bases on event-sourcing."
+    "description": "Visualize observability metrics"
   },
   {
-    "name": "Clean Architecture",
+    "name": "DBT",
     "ring": "adopt",
-    "quadrant": "techniques",
     "isNew": "FALSE",
-    "description": "AKA Hexagonal Architecture, AKA Onion Architecture. Though these definitions vary somewhat in their details, they are very similar. They all have the same objective, which is the separation of concerns."
+    "quadrant": "tools",
+    "description": "data transformation and data pipelines - https://www.getdbt.com"
   },
   {
-    "name": "Code Reviews",
+    "name": "Pytorch Lightning",
     "ring": "adopt",
-    "quadrant": "techniques",
     "isNew": "FALSE",
-    "description": "Peer review is intended to find mistakes overlooked in software development, improving the overall quality of software. Reviews can be done in various ways such as pair programming or pull request."
+    "quadrant": "tools",
+    "description": "deep learning framework - https://www.pytorchlightning.ai/"
   },
   {
-    "name": "Coding Standard",
+    "name": "lightGBM",
     "ring": "adopt",
-    "quadrant": "techniques",
     "isNew": "FALSE",
-    "description": "As in eXtreme Programming definition, teams must have common sets of coding practice, allowing to understand code with ease and encouraging collective ownership"
+    "quadrant": "tools",
+    "description": "training boosting framework - https://lightgbm.readthedocs.io/"
   },
   {
-    "name": "Consumer-Driven Contract Testing",
+    "name": "DVC",
+    "ring": "adopt",
+    "isNew": "FALSE",
+    "quadrant": "tools",
+    "description": "Version Control System for Machine Learning Projects - https://dvc.org/"
+  },
+  {
+    "name": "Streamlit",
     "ring": "trial",
-    "quadrant": "techniques",
     "isNew": "TRUE",
-    "description": "Ensures that a provider is compatible with the expectations that the consumer has of it. Could be not viable for some project due to missing binding of reference implementation, [Pact](https://docs.pact.io/)"
+    "quadrant": "tools",
+    "description": "Python library that makes it easy to create and share beautiful, custom web apps for machine learning and data science - https://streamlit.io"
+  },
+  {
+    "name": "CML",
+    "ring": "trial",
+    "isNew": "TRUE",
+    "quadrant": "tools",
+    "description": "CI/CD for Machine Learning Projects - https://cml.dev/"
+  },
+  {
+    "name": "gradio",
+    "ring": "assess",
+    "isNew": "TRUE",
+    "quadrant": "tools",
+    "description": "Interactive demo for machine learning models - https://gradio.app - used for a couple of POCs, but not sure we would use it in production"
+  },
+  {
+    "name": "bentoML",
+    "ring": "hold",
+    "isNew": "TRUE",
+    "quadrant": "tools",
+    "description": "simplifies Machine-Learning model deployment and serves models at production scale - https://www.bentoml.com/ - waiting for release 1.0 to decide whether to keep it or go for something else"
+  },
+  {
+    "name": "Argo Workflows",
+    "ring": "adopt",
+    "isNew": "TRUE",
+    "quadrant": "platforms",
+    "description": "Container-native workflow engine for orchestrating parallel jobs on Kubernetes - https://argoproj.github.io/workflows/"
+  },
+  {
+    "name": "React Native",
+    "ring": "adopt",
+    "quadrant": "languages & frameworks",
+    "isNew": "FALSE",
+    "description": "Framework to create multi platform mobile apps"
+  },
+  {
+    "name": "Fastlane",
+    "ring": "adopt",
+    "isNew": "FALSE",
+    "quadrant": "tools",
+    "description": "Fastlane is an open source platform aimed at simplifying Android and iOS deployment. Fastlane lets you automate every aspect of your development and release workflow."
+  },
+  {
+    "name": "Lokalise",
+    "ring": "adopt",
+    "isNew": "FALSE",
+    "quadrant": "tools",
+    "description": "The localization platform used in web and mobile projects"
   },
   {
     "name": "Conventional Commits",
@@ -280,6 +357,34 @@
     "description": "Easy set of rules for creating an explicit commit history. Helpful as proxy of internal quality (ideally more `feat` than `fix` and constant amount of `refactor` -- https://www.conventionalcommits.org/"
   },
   {
+    "name": "Pair & Mob Programming",
+    "ring": "adopt",
+    "quadrant": "techniques",
+    "isNew": "FALSE",
+    "description": "We encourage people sit at the same computer and collaborate on the same code at the same time. This software development approach helps us to share knowledges in a practical way."
+  },
+  {
+    "name": "Test-Driven Development",
+    "ring": "adopt",
+    "quadrant": "techniques",
+    "isNew": "FALSE",
+    "description": ""
+  },
+  {
+    "name": "Code Reviews",
+    "ring": "adopt",
+    "quadrant": "techniques",
+    "isNew": "FALSE",
+    "description": "Peer review is intended to find mistakes overlooked in software development, improving the overall quality of software. Reviews can be done in various ways such as pair programming or pull request."
+  },
+  {
+    "name": "Ship / Show / Ask",
+    "ring": "trial",
+    "quadrant": "techniques",
+    "isNew": "TRUE",
+    "description": "A branching strategy that combines the features of Pull Requests with the ability to keep shipping changes. Changes are categorized as either Ship (merge into mainline without review), Show (open a pull request for review, but merge into mainline immediately), or Ask (open a pull request for discussion before merging) -- from https://martinfowler.com/articles/ship-show-ask.html"
+  },
+  {
     "name": "Definition of Production Readiness",
     "ring": "adopt",
     "quadrant": "techniques",
@@ -287,12 +392,33 @@
     "description": "Support teams that pratices the *you build it, you run it* principle in assessing and preparing the operational readiness of new services."
   },
   {
+    "name": "Consumer-Driven Contract Testing",
+    "ring": "trial",
+    "quadrant": "techniques",
+    "isNew": "TRUE",
+    "description": "Ensures that a provider is compatible with the expectations that the consumer has of it. Could be not viable for some project due to missing binding of reference implementation, [Pact](https://docs.pact.io/)"
+  },
+  {
+    "name": "Coding Standard",
+    "ring": "adopt",
+    "quadrant": "techniques",
+    "isNew": "FALSE",
+    "description": "As in eXtreme Programming definition, teams must have common sets of coding practice, allowing to understand code with ease and encouraging collective ownership"
+  }, 
+  {
     "name": "Domain-Driven Design",
     "ring": "adopt",
     "quadrant": "techniques",
     "isNew": "FALSE",
     "description": "Domain-driven design (DDD) is the main approach of our software development, helping to support the evolution of our software systems. We leverage strategic DDD to ensure that our architecture remains focused on business capabilities and that we invest the correct effort on different subdomains, this also includes using tactical DDD patterns in our core subdomains."
   },
+  {
+    "name": "CQRS",
+    "ring": "adopt",
+    "quadrant": "techniques",
+    "isNew": "FALSE",
+    "description": "Command Query Responsibility Segregation is an architectural pattern that enables multiple representation of the same data in different persistent models. It is suited to complex domains and its obligatory for systems bases on event-sourcing."
+  }, 
   {
     "name": "Event Sourcing",
     "ring": "adopt",
@@ -308,6 +434,20 @@
     "description": "Event storming is a technique for exploring complex domains and the interaction between business actors. We run event storming sessions every time we need to re-align our vision and understandings, to find new hotspots or to discover unexplored parts of our business domain."
   },
   {
+    "name": "Clean Architecture",
+    "ring": "adopt",
+    "quadrant": "techniques",
+    "isNew": "FALSE", 
+    "description": "AKA Hexagonal Architecture, AKA Onion Architecture. Though these definitions vary somewhat in their details, they are very similar. They all have the same objective, which is the separation of concerns."
+  },
+  {
+    "name": "Lightweight Approach to RFCs/ADRs",
+    "ring": "adopt",
+    "quadrant": "techniques",
+    "isNew": "FALSE",
+    "description": "We use simple standardized templates across many teams as well as version control to capture RfCs (infrastructure) and ADRs (architecture) -- https://www.thoughtworks.com/radar/techniques/lightweight-approach-to-rfcs"
+  },
+  {
     "name": "GitOps",
     "ring": "trial",
     "quadrant": "techniques",
@@ -320,145 +460,5 @@
     "quadrant": "techniques",
     "isNew": "FALSE",
     "description": ""
-  },
-  {
-    "name": "Lightweight Approach to RFCs/ADRs",
-    "ring": "adopt",
-    "quadrant": "techniques",
-    "isNew": "FALSE",
-    "description": "We use simple standardized templates across many teams as well as version control to capture RfCs (infrastructure) and ADRs (architecture) -- https://www.thoughtworks.com/radar/techniques/lightweight-approach-to-rfcs"
-  },
-  {
-    "name": "Pair & Mob Programming",
-    "ring": "adopt",
-    "quadrant": "techniques",
-    "isNew": "FALSE",
-    "description": "We encourage people sit at the same computer and collaborate on the same code at the same time. This software development approach helps us to share knowledges in a practical way."
-  },
-  {
-    "name": "Ship / Show / Ask",
-    "ring": "trial",
-    "quadrant": "techniques",
-    "isNew": "TRUE",
-    "description": "A branching strategy that combines the features of Pull Requests with the ability to keep shipping changes. Changes are categorized as either Ship (merge into mainline without review), Show (open a pull request for review, but merge into mainline immediately), or Ask (open a pull request for discussion before merging) -- from https://martinfowler.com/articles/ship-show-ask.html"
-  },
-  {
-    "name": "Test-Driven Development",
-    "ring": "adopt",
-    "quadrant": "techniques",
-    "isNew": "FALSE",
-    "description": ""
-  },
-  {
-    "name": "CML",
-    "ring": "trial",
-    "isNew": "TRUE",
-    "quadrant": "tools",
-    "description": "CI/CD for Machine Learning Projects - https://cml.dev/"
-  },
-  {
-    "name": "Cypress",
-    "ring": "adopt",
-    "quadrant": "tools",
-    "isNew": "FALSE",
-    "description": "Test automation for modern web applications, see https://www.cypress.io - Used by now for \"e2e\" testsing, not for component testing."
-  },
-  {
-    "name": "DBT",
-    "ring": "adopt",
-    "isNew": "FALSE",
-    "quadrant": "tools",
-    "description": "data transformation and data pipelines - https://www.getdbt.com"
-  },
-  {
-    "name": "DVC",
-    "ring": "adopt",
-    "isNew": "FALSE",
-    "quadrant": "tools",
-    "description": "Version Control System for Machine Learning Projects - https://dvc.org/"
-  },
-  {
-    "name": "Fastlane",
-    "ring": "adopt",
-    "isNew": "FALSE",
-    "quadrant": "tools",
-    "description": "Fastlane is an open source platform aimed at simplifying Android and iOS deployment. Fastlane lets you automate every aspect of your development and release workflow."
-  },
-  {
-    "name": "Hasura",
-    "ring": "adopt",
-    "quadrant": "tools",
-    "isNew": "FALSE",
-    "description": "Allows to provide GraphQL API starting from databases with simple configuration and no code."
-  },
-  {
-    "name": "Helm",
-    "ring": "adopt",
-    "quadrant": "tools",
-    "isNew": "TRUE",
-    "description": "Manage kubernetes applications"
-  },
-  {
-    "name": "Kustomization",
-    "ring": "hold",
-    "quadrant": "tools",
-    "isNew": "TRUE",
-    "description": "Superseded by helm"
-  },
-  {
-    "name": "Lokalise",
-    "ring": "adopt",
-    "isNew": "FALSE",
-    "quadrant": "tools",
-    "description": "The localization platform used in web and mobile projects"
-  },
-  {
-    "name": "Pytorch Lightning",
-    "ring": "adopt",
-    "isNew": "FALSE",
-    "quadrant": "tools",
-    "description": "deep learning framework - https://www.pytorchlightning.ai/"
-  },
-  {
-    "name": "Streamlit",
-    "ring": "trial",
-    "isNew": "TRUE",
-    "quadrant": "tools",
-    "description": "Python library that makes it easy to create and share beautiful, custom web apps for machine learning and data science - https://streamlit.io"
-  },
-  {
-    "name": "Vite",
-    "ring": "adopt",
-    "quadrant": "tools",
-    "isNew": "TRUE",
-    "description": "Build system for SPAs with dev server, see https://vitejs.dev - Could be used when starting a new project as replacement for simple create-react-app and when you do no need the full Next.js stack"
-  },
-  {
-    "name": "bentoML",
-    "ring": "hold",
-    "isNew": "TRUE",
-    "quadrant": "tools",
-    "description": "simplifies Machine-Learning model deployment and serves models at production scale - https://www.bentoml.com/ - waiting for release 1.0 to decide whether to keep it or go for something else"
-  },
-  {
-    "name": "gradio",
-    "ring": "assess",
-    "isNew": "TRUE",
-    "quadrant": "tools",
-    "description": "Interactive demo for machine learning models - https://gradio.app - used for a couple of POCs, but not sure we would use it in production"
-  },
-  {
-    "name": "lightGBM",
-    "ring": "adopt",
-    "isNew": "FALSE",
-    "quadrant": "tools",
-    "description": "training boosting framework - https://lightgbm.readthedocs.io/"
-  },
-  {
-    "name": "structurizr",
-    "ring": "adopt",
-    "quadrant": "tools",
-    "isNew": "FALSE",
-    "description": "Diagrams for architecture ..."
   }
 ]
