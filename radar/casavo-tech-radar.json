@@ -334,5 +334,26 @@
     "isNew": "TRUE",
     "quadrant": "platforms",
     "description": "Container-native workflow engine for orchestrating parallel jobs on Kubernetes - https://argoproj.github.io/workflows/"
+  },
+  {
+    "name": "React Native",
+    "ring": "adopt",
+    "quadrant": "languages & frameworks",
+    "isNew": "FALSE",
+    "description": "Framework to create multi platform mobile apps"
+  },
+  {
+    "name": "Fastlane",
+    "ring": "adopt",
+    "isNew": "FALSE",
+    "quadrant": "tools",
+    "description": "Fastlane is an open source platform aimed at simplifying Android and iOS deployment. Fastlane lets you automate every aspect of your development and release workflow."
+  },
+  {
+    "name": "Lokalise",
+    "ring": "adopt",
+    "isNew": "FALSE",
+    "quadrant": "tools",
+    "description": "The localization platform used in web and mobile projects"
   }
 ]
