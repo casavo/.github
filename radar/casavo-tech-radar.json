@@ -446,5 +446,19 @@
     "quadrant": "techniques",
     "isNew": "FALSE",
     "description": "We use simple standardized templates across many teams as well as version control to capture RfCs (infrastructure) and ADRs (architecture) -- https://www.thoughtworks.com/radar/techniques/lightweight-approach-to-rfcs"
+  },
+  {
+    "name": "GitOps",
+    "ring": "trial",
+    "quadrant": "techniques",
+    "isNew": "TRUE",
+    "description": "We currently use with success the *push* based approach for infrastructure deployments. We tried the *pull* based approach to handle applicative deployments but we discovered that for our needs, complexities outweight benefits"
+  },
+  {
+    "name": "Infrastructure As Code",
+    "ring": "adopt",
+    "quadrant": "techniques",
+    "isNew": "FALSE",
+    "description": ""
   }
 ]
