@@ -276,7 +276,7 @@
     "name": "Pytorch Lightning",
     "ring": "adopt",
     "isNew": "FALSE",
-    "quadrant": "tools",
+    "quadrant": "languages & frameworks",
     "description": "deep learning framework - https://www.pytorchlightning.ai/"
   },
   {
@@ -295,14 +295,14 @@
   },
   {
     "name": "Streamlit",
-    "ring": "trial",
+    "ring": "adopt",
     "isNew": "TRUE",
     "quadrant": "tools",
     "description": "Python library that makes it easy to create and share beautiful, custom web apps for machine learning and data science - https://streamlit.io"
   },
   {
     "name": "CML",
-    "ring": "trial",
+    "ring": "adopt",
     "isNew": "TRUE",
     "quadrant": "tools",
     "description": "CI/CD for Machine Learning Projects - https://cml.dev/"
@@ -316,7 +316,7 @@
   },
   {
     "name": "bentoML",
-    "ring": "hold",
+    "ring": "adopt",
     "isNew": "TRUE",
     "quadrant": "tools",
     "description": "simplifies Machine-Learning model deployment and serves models at production scale - https://www.bentoml.com/ - waiting for release 1.0 to decide whether to keep it or go for something else"
