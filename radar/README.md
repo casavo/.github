@@ -1,6 +1,6 @@
 # Casavo Tech Radar
 
-* [View online on radar.thoughtworks.com](https://radar.thoughtworks.com/?sheetId=https%3A%2F%2Fraw.githubusercontent.com%2Fcasavo%2F.github%2Fmaster%2Fradar%2Fcasavo-tech-radar.json)
+* [View online on casavo.com](https://techradar.casavo.com/)
 
 ## Quadrants
 
