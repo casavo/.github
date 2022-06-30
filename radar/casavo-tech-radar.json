@@ -368,7 +368,7 @@
     "ring": "adopt",
     "quadrant": "techniques",
     "isNew": "FALSE",
-    "description": ""
+    "description":  "Write a test to describe the next expected behavior. Write the code to implement the expected behavior until the test passes. Refactor the code to make it well structured. In short: use tests to guide the implementation and do not neglect the refactor step. One more thing: create tests to guard against bugs coming back too."
   },
   {
     "name": "Code Reviews",
