@@ -59,7 +59,7 @@
     "name": "Apollo",
     "ring": "hold",
     "quadrant": "languages & frameworks",
-    "isNew": "TRUE",
+    "isNew": "FALSE",
     "description": "Reference implementation for GraphQL on frontend and backend side, not actually practical to be used, other simpler solutions may be adeguate"
   },
   {
@@ -115,14 +115,14 @@
     "name": "Vanilla Extract",
     "ring": "assess",
     "quadrant": "languages & frameworks",
-    "isNew": "TRUE",
+    "isNew": "FALSE",
     "description": "Zero-runtime CSS-in-JS library with build-time styles extraction. https://vanilla-extract.style -- Currently evaluating if can replace Emotion"
   },
   {
     "name": "Stitches",
     "ring": "hold",
     "quadrant": "languages & frameworks",
-    "isNew": "TRUE",
+    "isNew": "FALSE",
     "description": "https://stitches.dev - Tried as replacement for Emotion, community stopped their development efforts. Switch back to Emotion or Vanilla Extract"
   },
   {
@@ -136,7 +136,7 @@
     "name": "Vite",
     "ring": "adopt",
     "quadrant": "tools",
-    "isNew": "TRUE",
+    "isNew": "FALSE",
     "description": "Build system for SPAs with dev server, see https://vitejs.dev - Could be used when starting a new project as replacement for simple create-react-app and when you do no need the full Next.js stack"
   },
   {
@@ -157,14 +157,14 @@
     "name": "Quarkus",
     "ring": "trial",
     "quadrant": "languages & frameworks",
-    "isNew": "TRUE",
+    "isNew": "FALSE",
     "description": "For Kotlin, nice alternative to Spring, describe here why ready for use, but not completely proven to be in adopt"
   },
   {
     "name": "JobRunr",
     "ring": "trial",
     "quadrant": "languages & frameworks",
-    "isNew": "TRUE",
+    "isNew": "FALSE",
     "description": "For Kotlin, solid framework for background jobs in Java world ..."
   },
   {
@@ -213,42 +213,42 @@
     "name": "Github Actions",
     "ring": "adopt",
     "quadrant": "platforms",
-    "isNew": "TRUE",
+    "isNew": "FALSE",
     "description": "Automated software workflows"
   },
   {
     "name": "ArgoCD",
     "ring": "hold",
     "quadrant": "platforms",
-    "isNew": "TRUE",
+    "isNew": "FALSE",
     "description": "Superseded by helm"
   },
   {
     "name": "Kustomization",
     "ring": "hold",
     "quadrant": "tools",
-    "isNew": "TRUE",
+    "isNew": "FALSE",
     "description": "Superseded by helm"
   },
   {
     "name": "Helm",
     "ring": "adopt",
     "quadrant": "tools",
-    "isNew": "TRUE",
+    "isNew": "FALSE",
     "description": "Manage kubernetes applications"
   },
   {
     "name": "EFK",
     "ring": "hold",
     "quadrant": "platforms",
-    "isNew": "TRUE",
+    "isNew": "FALSE",
     "description": "The stack Elasticsearch, Flutent Kibana has been superseded in favor of Loki + Grafana"
   },
   {
     "name": "Loki",
     "ring": "adopt",
     "quadrant": "platforms",
-    "isNew": "TRUE",
+    "isNew": "FALSE",
     "description": "Log aggregation system powered by Grafana Labs"
   },
   {
@@ -296,35 +296,35 @@
   {
     "name": "Streamlit",
     "ring": "adopt",
-    "isNew": "TRUE",
+    "isNew": "FALSE",
     "quadrant": "tools",
     "description": "Python library that makes it easy to create and share beautiful, custom web apps for machine learning and data science - https://streamlit.io"
   },
   {
     "name": "CML",
     "ring": "adopt",
-    "isNew": "TRUE",
+    "isNew": "FALSE",
     "quadrant": "tools",
     "description": "CI/CD for Machine Learning Projects - https://cml.dev/"
   },
   {
     "name": "gradio",
     "ring": "assess",
-    "isNew": "TRUE",
+    "isNew": "FALSE",
     "quadrant": "tools",
     "description": "Interactive demo for machine learning models - https://gradio.app - used for a couple of POCs, but not sure we would use it in production"
   },
   {
     "name": "bentoML",
     "ring": "hold",
-    "isNew": "TRUE",
+    "isNew": "FALSE",
     "quadrant": "tools",
     "description": "simplifies Machine-Learning model deployment and serves models at production scale - https://www.bentoml.com/ - waiting for release 1.0 to decide whether to keep it or go for something else"
   },
   {
     "name": "Argo Workflows",
     "ring": "adopt",
-    "isNew": "TRUE",
+    "isNew": "FALSE",
     "quadrant": "platforms",
     "description": "Container-native workflow engine for orchestrating parallel jobs on Kubernetes - https://argoproj.github.io/workflows/"
   },
@@ -381,7 +381,7 @@
     "name": "Ship / Show / Ask",
     "ring": "trial",
     "quadrant": "techniques",
-    "isNew": "TRUE",
+    "isNew": "FALSE",
     "description": "A branching strategy that combines the features of Pull Requests with the ability to keep shipping changes. Changes are categorized as either Ship (merge into mainline without review), Show (open a pull request for review, but merge into mainline immediately), or Ask (open a pull request for discussion before merging) -- from https://martinfowler.com/articles/ship-show-ask.html"
   },
   {
@@ -395,7 +395,7 @@
     "name": "Consumer-Driven Contract Testing",
     "ring": "trial",
     "quadrant": "techniques",
-    "isNew": "TRUE",
+    "isNew": "FALSE",
     "description": "Ensures that a provider is compatible with the expectations that the consumer has of it. Could be not viable for some project due to missing binding of reference implementation, [Pact](https://docs.pact.io/)"
   },
   {
@@ -451,7 +451,7 @@
     "name": "GitOps",
     "ring": "trial",
     "quadrant": "techniques",
-    "isNew": "TRUE",
+    "isNew": "FALSE",
     "description": "We currently use with success the *push* based approach for infrastructure deployments. We tried the *pull* based approach to handle applicative deployments but we discovered that for our needs, complexities outweight benefits"
   },
   {
