@@ -106,9 +106,9 @@
   },
   {
     "name": "Redux",
-    "ring": "trial",
+    "ring": "adopt",
     "quadrant": "languages & frameworks",
-    "isNew": "FALSE",
+    "isNew": "TRUE",
     "description": "Needed for mobile application, to be evaluated on web side as state manager for React (sometime a simpler solution could be enough)"
   },
   {
