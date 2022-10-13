@@ -309,8 +309,8 @@
   },
   {
     "name": "gradio",
-    "ring": "assess",
-    "isNew": "FALSE",
+    "ring": "hold",
+    "isNew": "TRUE",
     "quadrant": "tools",
     "description": "Interactive demo for machine learning models - https://gradio.app - used for a couple of POCs, but not sure we would use it in production"
   },
