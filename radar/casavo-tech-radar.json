@@ -373,9 +373,9 @@
   },
   {
     "name": "Conventional Commits",
-    "ring": "trial",
+    "ring": "adopt",
     "quadrant": "techniques",
-    "isNew": "FALSE",
+    "isNew": "TRUE",
     "description": "Easy set of rules for creating an explicit commit history. Helpful as proxy of internal quality (ideally more `feat` than `fix` and constant amount of `refactor` -- https://www.conventionalcommits.org/"
   },
   {
