@@ -113,9 +113,9 @@
   },
   {
     "name": "Vanilla Extract",
-    "ring": "assess",
+    "ring": "adopt",
     "quadrant": "languages & frameworks",
-    "isNew": "FALSE",
+    "isNew": "TRUE",
     "description": "Zero-runtime CSS-in-JS library with build-time styles extraction. https://vanilla-extract.style -- Currently evaluating if can replace Emotion"
   },
   {
