@@ -203,13 +203,6 @@
     "description": "Full stack web framework for Python"
   },
   {
-    "name": "Drone",
-    "ring": "hold",
-    "quadrant": "platforms",
-    "isNew": "FALSE",
-    "description": "Superseded by github actions"
-  },
-  {
     "name": "Github Actions",
     "ring": "adopt",
     "quadrant": "platforms",
