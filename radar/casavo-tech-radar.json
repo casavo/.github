@@ -302,6 +302,20 @@
     "description": "Visualize observability metrics"
   },
   {
+    "name": "Newrelic",
+    "ring": "hold",
+    "quadrant": "platforms",
+    "isNew": "TRUE",
+    "description": "Error alerting and APM, superseed by Sentry"
+  },
+  {
+    "name": "Sentry",
+    "ring": "adopt",
+    "quadrant": "platforms",
+    "isNew": "TRUE",
+    "description": "Error alerting and APM"
+  },
+  {
     "name": "DBT",
     "ring": "adopt",
     "isNew": "FALSE",
