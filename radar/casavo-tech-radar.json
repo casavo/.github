@@ -232,6 +232,13 @@
     "description": "Asynchronous task queue or job queue which is based on distributed message passing for Python"
   },
   {
+    "name": "luigi",
+    "ring": "assess",
+    "quadrant": "languages & frameworks",
+    "isNew": "TRUE",
+    "description": "Build pipelines of long-running batch processes for Python -- https://luigi.readthedocs.io/en/stable/ "
+  },
+  {
     "name": "Emmett",
     "ring": "assess",
     "quadrant": "languages & frameworks",
