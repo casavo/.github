@@ -344,6 +344,13 @@
     "description": "simplifies Machine-Learning model deployment and serves models at production scale - https://www.bentoml.com/ - waiting for release 1.0 to decide whether to keep it or go for something else"
   },
   {
+    "name": "MLflow",
+    "ring": "adopt",
+    "isNew": "FALSE",
+    "quadrant": "tools",
+    "description": "platform for the machine learning lifecycle -- platform for the machine learning lifecycle"
+  },
+  {
     "name": "Argo Workflows",
     "ring": "adopt",
     "isNew": "FALSE",
