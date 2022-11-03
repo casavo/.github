@@ -49,13 +49,6 @@
     "description": "TODO -- Elixir"
   },
   {
-    "name": "Rust",
-    "ring": "hold",
-    "quadrant": "languages & frameworks",
-    "isNew": "FALSE",
-    "description": "Too few people with strong knowledges"
-  },
-  {
     "name": "PHP",
     "ring": "hold",
     "quadrant": "languages & frameworks",
