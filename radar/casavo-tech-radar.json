@@ -211,6 +211,13 @@
     "description": "Python web framework for building APIs"
   },
   {
+    "name": "Django",
+    "ring": "hold",
+    "quadrant": "languages & frameworks",
+    "isNew": "FALSE",
+    "description": "Python web framework for building, superseed by FastAPI"
+  },
+  {
     "name": "SQLAlchemy",
     "ring": "adopt",
     "quadrant": "languages & frameworks",
