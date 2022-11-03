@@ -42,11 +42,11 @@
     "description": "Job processing in Elixir, backed by PostgreSQL"
   },
   {
-    "name": "Phoenix LiveView",
+    "name": "Phoenix (with LiveView)",
     "ring": "adopt",
     "quadrant": "languages & frameworks",
     "isNew": "TRUE",
-    "description": "TODO -- Elixir"
+    "description": "De facto in Elixir for web application, using LiveView for real-time user experiences with server-rendered HTML"
   },
   {
     "name": "PHP",
