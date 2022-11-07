@@ -46,7 +46,7 @@
     "ring": "adopt",
     "quadrant": "languages & frameworks",
     "isNew": "TRUE",
-    "description": "De facto in Elixir for web application, using LiveView for real-time user experiences with server-rendered HTML"
+    "description": "De facto in Elixir for web application, using LiveView for real-time user experiences with server-rendered HTML and incremental updates via WebSockets"
   },
   {
     "name": "PHP",
