@@ -502,6 +502,6 @@
     "ring": "adopt",
     "quadrant": "techniques",
     "isNew": "FALSE",
-    "description": "We use Git repositories containing declarative descriptions of the infrastructure currently desired in the production environment and automated processes though GitHub Action to make the production and staging environment match the described state in the repository. We tried the *pull* based approach to handle applicative deployments but we discovered that for our needs, complexities outweight benefits."
+    "description": "We use Git repositories containing declarative descriptions of the infrastructure currently desired in the production environment and automated processes though GitHub Action to make the production and staging environment match the described state in the repository.<br/><br/>We tried the <strong>pull</strong> based approach to handle applicative deployments but we discovered that for our needs, complexities outweight benefits."
   }
 ]
