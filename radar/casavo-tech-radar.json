@@ -298,7 +298,7 @@
     "name": "Sentry",
     "ring": "adopt",
     "quadrant": "platforms",
-    "isNew": "TRUE",
+    "isNew": "FALSE",
     "description": "Error alerting and APM"
   },
   {
