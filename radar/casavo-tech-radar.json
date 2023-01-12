@@ -274,18 +274,18 @@
     "description": "The stack Elasticsearch, Flutent Kibana has been superseded in favor of Loki + Grafana"
   },
   {
-    "name": "Loki",
+    "name": "Grafana Loki",
     "ring": "adopt",
     "quadrant": "platforms",
     "isNew": "FALSE",
     "description": "Log aggregation system powered by Grafana Labs"
   },
   {
-    "name": "Prometheus",
+    "name": "Grafana Mimir",
     "ring": "adopt",
     "quadrant": "platforms",
-    "isNew": "FALSE",
-    "description": "Monitoring system & time series database"
+    "isNew": "TRUE",
+    "description": "Open source, horizontally scalable, highly available, multi-tenant, long-term storage for Prometheus. Chosen as replacement for plain Prometheus due to horizontal scalability and full compatibility."
   },
   {
     "name": "Grafana",
