@@ -267,13 +267,6 @@
     "description": "Manage kubernetes applications"
   },
   {
-    "name": "EFK",
-    "ring": "hold",
-    "quadrant": "platforms",
-    "isNew": "FALSE",
-    "description": "The stack Elasticsearch, Flutent Kibana has been superseded in favor of Loki + Grafana"
-  },
-  {
     "name": "Grafana Loki",
     "ring": "adopt",
     "quadrant": "platforms",
