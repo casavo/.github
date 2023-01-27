@@ -496,5 +496,12 @@
     "quadrant": "techniques",
     "isNew": "FALSE",
     "description": "We use Git repositories containing declarative descriptions of the infrastructure currently desired in the production environment and automated processes though GitHub Action to make the production and staging environment match the described state in the repository.<br/><br/>We tried the <strong>pull</strong> based approach to handle applicative deployments but we discovered that for our needs, complexities outweight benefits."
+  },
+  {
+    "name": "backstage.io",
+    "ring": "assess",
+    "quadrant": "tools",
+    "isNew": "TRUE",
+    "description": "We try to use backstage.io to solve two, simple promlems: collecting documentation from many repo; catalogue our services and have their swagger in a central point."
   }
 ]
