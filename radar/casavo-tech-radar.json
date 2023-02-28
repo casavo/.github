@@ -289,10 +289,10 @@
   },
   {
     "name": "Newrelic",
-    "ring": "hold",
+    "ring": "adopt",
     "quadrant": "platforms",
     "isNew": "TRUE",
-    "description": "Error alerting and APM, superseed by Sentry"
+    "description": "Error alerting and APM, used on stacks where Sentry do not supports APM (i.e.: Quarkus)"
   },
   {
     "name": "Sentry",
