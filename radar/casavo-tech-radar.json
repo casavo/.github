@@ -503,5 +503,12 @@
     "quadrant": "tools",
     "isNew": "TRUE",
     "description": "We try to use backstage.io to solve two, simple promlems: collecting documentation from many repo; catalogue our services and have their swagger in a central point."
+  },
+  {
+    "name": "RabbitMQ",
+    "ring": "assess",
+    "quadrant": "tools",
+    "isNew": "TRUE",
+    "description": "We use it for asyncronous messaging"
   }
 ]
