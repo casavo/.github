@@ -292,7 +292,7 @@
     "ring": "adopt",
     "quadrant": "platforms",
     "isNew": "TRUE",
-    "description": "Error alerting and APM, used on stacks where Sentry do not supports APM (i.e.: Quarkus)"
+    "description": "Error alerting and APM, used on stacks where Sentry is not supported (i.e.: Quarkus). For other cases, use Sentry."
   },
   {
     "name": "Sentry",
