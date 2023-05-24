@@ -19,9 +19,9 @@ Note: don't care too much to put a blip in the "perfect" quadrant, the rings are
 
 The rings indicate what stage in the adoption lifecycle we think they should be in. The closer a bip is to the center of the radar, the sooner or more frequent you have to deal with it.
 
-| quadrant | explanation |
-| -- | -- |
-| Adopt | represents blips that we think you should seriously consider using. We don't say that you should use these for every project; any tool should only be used in an appropriate context. However we do think that a blip in the Adopt ring represents something where there's no doubt that it's proven and mature for use. |
-| Trial | is for blips that we think are ready for use, but not as completely proven as those in the Adopt ring. So for most organizations we think you should use these on a trial basis, to decide whether they should be part of your toolkit. Typically we've used trial blips in production, but we realize that readers are more cautious than us. |
-| Assess | are things to look at closely, but not necessarily trial yet - unless you think they would be a particularly good fit for you. Typically, blips in the Assess ring are things that we think are interesting and worth keeping an eye on. |
-| Hold | ring is for things that, even though they are accepted in the industry, we haven't had a good experience with. Therefore we are calling them out to warn you that you may run into trouble with them as well. Sometimes it means we think they're irredeemably flawed; or just being misused. We do place things in the Hold ring that we wish the industry wouldn't use. |
+| ring | explanation |
+| --     | -- |
+| Adopt  | Technologies we have high confidence in to serve our purposes. Low risk and recommended to be widely used. |
+| Trial  | Technologies that we are using and have seen to solve a real problem. Slightly more risky than adopt, and with limited shared knowledge across organization. |
+| Assess | Technologies used in our organization, but unproven. You may find teams that have started a prototyping effort, but invest on them has the higher risks. |
+| Hold   | Technologies not recommended to be used for new project. Used previously by some teams or all teams, but superseded by other technologies. |
