@@ -56,6 +56,13 @@
     "description": ""
   },
   {
+    "name": "Fastify",
+    "ring": "trial",
+    "quadrant": "languages & frameworks",
+    "isNew": "TRUE",
+    "description": "Web framework for Node.js - Suitable for web applications that require high performances; used in projects with a well-defined and small scope, Fastify allows engineers with more experience on the front-end side (JavaScript/TypeScript) to be independent on the back-end side as well."
+  },
+  {
     "name": "TypeScript",
     "ring": "adopt",
     "quadrant": "languages & frameworks",
