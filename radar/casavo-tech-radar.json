@@ -106,10 +106,17 @@
   },
   {
     "name": "Redux",
+    "ring": "hold",
+    "quadrant": "languages & frameworks",
+    "isNew": "TRUE",
+    "description": "We are moving away from it in favor of simpler solutions, some codebases (especially React Native ones) still use it but will migrate over the next months."
+  },
+  {
+    "name": "Recoil",
     "ring": "adopt",
     "quadrant": "languages & frameworks",
     "isNew": "TRUE",
-    "description": "Needed for mobile application, to be evaluated on web side as state manager for React (sometime a simpler solution could be enough)"
+    "description": "State management library for React by Facebook, provides shared state in app in a simpler way then Redux. Already used by some project as replacement for Redux."
   },
   {
     "name": "React Router",
@@ -130,7 +137,7 @@
     "ring": "adopt",
     "quadrant": "languages & frameworks",
     "isNew": "FALSE",
-    "description": "Library designed for writing css styles with JavaScript. Currently evaluating if can be replaced by Vanilla Extract"
+    "description": "Library designed for writing css styles with JavaScript. It's not working with latest versions of Next.js, so we are evaluating if we can replace it with Vanilla Extract."
   },
   {
     "name": "Vanilla Extract",
@@ -147,11 +154,11 @@
     "description": "https://stitches.dev - Tried as replacement for Emotion, community stopped their development efforts. Switch back to Emotion or Vanilla Extract"
   },
   {
-    "name": "Formik & Yup",
+    "name": "Formik & Yup/Zod",
     "ring": "adopt",
     "quadrant": "languages & frameworks",
     "isNew": "FALSE",
-    "description": "Build forms in React with input validation, formatting, masking, arrays, and error handling -- https://formik.org & https://github.com/jquense/yup"
+    "description": "Build forms in React with input validation, formatting, masking, arrays, and error handling -- https://formik.org & https://github.com/jquense/yup & https://zod.dev/"
   },
   {
     "name": "Vite",
@@ -166,6 +173,13 @@
     "quadrant": "tools",
     "isNew": "FALSE",
     "description": "Test automation for modern web applications, see https://www.cypress.io - Used by now for \"e2e\" testsing, not for component testing."
+  },
+  {
+    "name": "Playwright",
+    "ring": "adopt",
+    "quadrant": "tools",
+    "isNew": "TRUE",
+    "description": "E2E testing tool from Microsoft, it supports multiple languages (Node.js & Python included) and has a bultin parallelization feature."
   },
   {
     "name": "Kotlin",
@@ -187,7 +201,6 @@
     "quadrant": "languages & frameworks",
     "isNew": "TRUE",
     "description": "Functional toolkit for Kotlin HTTP applications, provides a simple and uniform way to serve and consume HTTP services."
-
   },
   {
     "name": "JobRunr",
@@ -418,7 +431,7 @@
     "ring": "adopt",
     "quadrant": "techniques",
     "isNew": "FALSE",
-    "description":  "Write a test to describe the next expected behavior. Write the code to implement the expected behavior until the test passes. Refactor the code to make it well structured. In short: use tests to guide the implementation and do not neglect the refactor step. One more thing: create tests to guard against bugs coming back too."
+    "description": "Write a test to describe the next expected behavior. Write the code to implement the expected behavior until the test passes. Refactor the code to make it well structured. In short: use tests to guide the implementation and do not neglect the refactor step. One more thing: create tests to guard against bugs coming back too."
   },
   {
     "name": "Code Reviews",
@@ -454,7 +467,7 @@
     "quadrant": "techniques",
     "isNew": "FALSE",
     "description": "As in eXtreme Programming definition, teams must have common sets of coding practice, allowing to understand code with ease and encouraging collective ownership"
-  }, 
+  },
   {
     "name": "Domain-Driven Design",
     "ring": "adopt",
@@ -468,7 +481,7 @@
     "quadrant": "techniques",
     "isNew": "FALSE",
     "description": "Command Query Responsibility Segregation is an architectural pattern that enables multiple representation of the same data in different persistent models. It is suited to complex domains and its obligatory for systems bases on event-sourcing."
-  }, 
+  },
   {
     "name": "Event Sourcing",
     "ring": "adopt",
@@ -487,7 +500,7 @@
     "name": "Clean Architecture",
     "ring": "adopt",
     "quadrant": "techniques",
-    "isNew": "FALSE", 
+    "isNew": "FALSE",
     "description": "AKA Hexagonal Architecture, AKA Onion Architecture. Though these definitions vary somewhat in their details, they are very similar. They all have the same objective, which is the separation of concerns."
   },
   {
