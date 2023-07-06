@@ -116,7 +116,7 @@
     "ring": "adopt",
     "quadrant": "languages & frameworks",
     "isNew": "TRUE",
-    "description": "Simpler state management library for React by Facebook. Already in use in Tribe Brokers."
+    "description": "State management library for React by Facebook, provides shared state in app in a simpler way then Redux. Already used by some project as replacement for Redux."
   },
   {
     "name": "React Router",
@@ -179,7 +179,7 @@
     "ring": "adopt",
     "quadrant": "tools",
     "isNew": "TRUE",
-    "description": "E2E testing tool from Microsoft that is proving to be more efficient than Cypress. Widely adopted by Paris squad."
+    "description": "E2E testing tool from Microsoft, it supports multiple languages (Node.js & Python included) and has a bultin parallelization feature."
   },
   {
     "name": "Kotlin",
