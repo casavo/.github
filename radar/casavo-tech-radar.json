@@ -546,13 +546,6 @@
     "description": ""
   },
   {
-    "name": "Argocd",
-    "ring": "assess",
-    "quadrant": "platforms",
-    "isNew": "TRUE",
-    "description": ""
-  },
-  {
     "name": "Atlantis",
     "ring": "hold",
     "quadrant": "platforms",
@@ -610,20 +603,6 @@
     "description": ""
   },
   {
-    "name": "Grafana",
-    "ring": "adopt",
-    "quadrant": "tools",
-    "isNew": "TRUE",
-    "description": ""
-  },
-  {
-    "name": "Graphql",
-    "ring": "adopt",
-    "quadrant": "languages & frameworks",
-    "isNew": "TRUE",
-    "description": ""
-  },
-  {
     "name": "Kibana",
     "ring": "adopt",
     "quadrant": "tools",
@@ -638,13 +617,6 @@
     "description": ""
   },
   {
-    "name": "Next",
-    "ring": "adopt",
-    "quadrant": "languages & frameworks",
-    "isNew": "TRUE",
-    "description": ""
-  },
-  {
     "name": "OpenVPN",
     "ring": "hold",
     "quadrant": "platforms",
@@ -653,13 +625,6 @@
   },
   {
     "name": "Play",
-    "ring": "adopt",
-    "quadrant": "languages & frameworks",
-    "isNew": "TRUE",
-    "description": ""
-  },
-  {
-    "name": "React",
     "ring": "adopt",
     "quadrant": "languages & frameworks",
     "isNew": "TRUE",
@@ -697,13 +662,6 @@
     "name": "Terraform",
     "ring": "adopt",
     "quadrant": "platforms",
-    "isNew": "TRUE",
-    "description": ""
-  },
-  {
-    "name": "Typescript",
-    "ring": "adopt",
-    "quadrant": "languages & frameworks",
     "isNew": "TRUE",
     "description": ""
   },
