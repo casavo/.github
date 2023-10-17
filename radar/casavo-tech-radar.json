@@ -519,10 +519,10 @@
   },
   {
     "name": "RabbitMQ",
-    "ring": "assess",
+    "ring": "adopt",
     "quadrant": "tools",
-    "isNew": "FALSE",
-    "description": "We use it for asyncronous messaging"
+    "isNew": "TRUE",
+    "description": "Being a very powerful tool, we use it for asyncronous messaging. We do not use streams, we do not persist domain events there: we have our internal developed event store for that purpose"
   },
   {
     "name": "Akka",
