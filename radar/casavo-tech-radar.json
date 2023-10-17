@@ -536,49 +536,49 @@
     "ring": "adopt",
     "quadrant": "languages & frameworks",
     "isNew": "TRUE",
-    "description": ""
+    "description": "Mostly used for workers working on messages or large number of db rows"
   },
   {
     "name": "Algolia",
     "ring": "assess",
     "quadrant": "platforms",
     "isNew": "TRUE",
-    "description": ""
+    "description": "To search listings on proprioo website"
   },
   {
     "name": "Atlantis",
     "ring": "hold",
     "quadrant": "platforms",
     "isNew": "TRUE",
-    "description": ""
+    "description": "Used to check terraform transformations"
   },
   {
     "name": "AWS RDS Mysql",
     "ring": "hold",
     "quadrant": "platforms",
     "isNew": "TRUE",
-    "description": ""
+    "description": "To store all data about listings, brokers and users"
   },
   {
     "name": "Bigquery",
     "ring": "assess",
     "quadrant": "platforms",
     "isNew": "TRUE",
-    "description": ""
+    "description": "Used for analytical purposes and large imports based on python scripts (yanport for ex.)"
   },
   {
     "name": "AWS ECS",
     "ring": "adopt",
     "quadrant": "platforms",
     "isNew": "TRUE",
-    "description": ""
+    "description": "For production images in Casavo France"
   },
   {
     "name": "AWS EKS",
     "ring": "adopt",
     "quadrant": "platforms",
     "isNew": "TRUE",
-    "description": ""
+    "description": "For staging"
   },
 
   {
@@ -586,90 +586,90 @@
     "ring": "adopt",
     "quadrant": "tools",
     "isNew": "TRUE",
-    "description": ""
+    "description": "For search (user feature) and logs (dev feature)"
   },
   {
     "name": "Gitlab",
     "ring": "adopt",
     "quadrant": "platforms",
     "isNew": "TRUE",
-    "description": ""
+    "description": "To store all code and scripts"
   },
   {
     "name": "Google Calendar",
     "ring": "adopt",
     "quadrant": "platforms",
     "isNew": "TRUE",
-    "description": ""
+    "description": "To allow brokers to manage their time"
   },
   {
     "name": "Kibana",
     "ring": "adopt",
     "quadrant": "tools",
     "isNew": "TRUE",
-    "description": ""
+    "description": "For dev"
   },
   {
     "name": "AWS Lambda",
     "ring": "adopt",
     "quadrant": "platforms",
     "isNew": "TRUE",
-    "description": ""
+    "description": "For image processing, messages queues, emails, url shortener"
   },
   {
     "name": "OpenVPN",
     "ring": "hold",
     "quadrant": "platforms",
     "isNew": "TRUE",
-    "description": ""
+    "description": "To protect several services like redis and the eks cluster"
   },
   {
     "name": "Play",
     "ring": "adopt",
     "quadrant": "languages & frameworks",
     "isNew": "TRUE",
-    "description": ""
+    "description": "Main framework for our scala backend"
   },
   {
     "name": "Redis",
     "ring": "adopt",
     "quadrant": "tools",
     "isNew": "TRUE",
-    "description": ""
+    "description": "To speedup our app and store informations about sessions, documents, stats and such"
   },
   {
     "name": "Salesforce",
     "ring": "hold",
     "quadrant": "platforms",
     "isNew": "TRUE",
-    "description": ""
+    "description": "Was used by brokers and IS before"
   },
   {
     "name": "Scala",
     "ring": "adopt",
     "quadrant": "languages & frameworks",
     "isNew": "TRUE",
-    "description": ""
+    "description": "Main language for backend Appsales"
   },
   {
     "name": "Scalalikejdbc",
     "ring": "adopt",
     "quadrant": "languages & frameworks",
     "isNew": "TRUE",
-    "description": ""
+    "description": "Used for Mysql/Scala communication"
   },
   {
     "name": "Terraform",
     "ring": "adopt",
     "quadrant": "platforms",
     "isNew": "TRUE",
-    "description": ""
+    "description": "Some of the infrastructure is based on terraform (roles Mysql, eks) "
   },
   {
     "name": "Hashicorp Vault",
     "ring": "adopt",
     "quadrant": "platforms",
     "isNew": "TRUE",
-    "description": ""
+    "description": "To store some secrets (mostly staging and devops tools)"
   }
 ]
