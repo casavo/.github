@@ -530,5 +530,188 @@
     "quadrant": "tools",
     "isNew": "FALSE",
     "description": "We use it for asyncronous messaging"
+  },
+  {
+    "name": "Akka",
+    "ring": "adopt",
+    "quadrant": "languages & frameworks",
+    "isNew": "TRUE",
+    "description": ""
+  },
+  {
+    "name": "Algolia",
+    "ring": "assess",
+    "quadrant": "platforms",
+    "isNew": "TRUE",
+    "description": ""
+  },
+  {
+    "name": "Argocd",
+    "ring": "assess",
+    "quadrant": "platforms",
+    "isNew": "TRUE",
+    "description": ""
+  },
+  {
+    "name": "Atlantis",
+    "ring": "hold",
+    "quadrant": "platforms",
+    "isNew": "TRUE",
+    "description": ""
+  },
+  {
+    "name": "AWS RDS Mysql",
+    "ring": "hold",
+    "quadrant": "platforms",
+    "isNew": "TRUE",
+    "description": ""
+  },
+  {
+    "name": "Bigquery",
+    "ring": "assess",
+    "quadrant": "platforms",
+    "isNew": "TRUE",
+    "description": ""
+  },
+  {
+    "name": "AWS ECS",
+    "ring": "adopt",
+    "quadrant": "platforms",
+    "isNew": "TRUE",
+    "description": ""
+  },
+  {
+    "name": "AWS EKS",
+    "ring": "adopt",
+    "quadrant": "platforms",
+    "isNew": "TRUE",
+    "description": ""
+  },
+
+  {
+    "name": "Elasticsearch",
+    "ring": "adopt",
+    "quadrant": "tools",
+    "isNew": "TRUE",
+    "description": ""
+  },
+  {
+    "name": "Gitlab",
+    "ring": "adopt",
+    "quadrant": "platforms",
+    "isNew": "TRUE",
+    "description": ""
+  },
+  {
+    "name": "Google Calendar",
+    "ring": "adopt",
+    "quadrant": "platforms",
+    "isNew": "TRUE",
+    "description": ""
+  },
+  {
+    "name": "Grafana",
+    "ring": "adopt",
+    "quadrant": "tools",
+    "isNew": "TRUE",
+    "description": ""
+  },
+  {
+    "name": "Graphql",
+    "ring": "adopt",
+    "quadrant": "languages & frameworks",
+    "isNew": "TRUE",
+    "description": ""
+  },
+  {
+    "name": "Kibana",
+    "ring": "adopt",
+    "quadrant": "tools",
+    "isNew": "TRUE",
+    "description": ""
+  },
+  {
+    "name": "AWS Lambda",
+    "ring": "adopt",
+    "quadrant": "platforms",
+    "isNew": "TRUE",
+    "description": ""
+  },
+  {
+    "name": "Next",
+    "ring": "adopt",
+    "quadrant": "languages & frameworks",
+    "isNew": "TRUE",
+    "description": ""
+  },
+  {
+    "name": "OpenVPN",
+    "ring": "hold",
+    "quadrant": "platforms",
+    "isNew": "TRUE",
+    "description": ""
+  },
+  {
+    "name": "Play",
+    "ring": "adopt",
+    "quadrant": "languages & frameworks",
+    "isNew": "TRUE",
+    "description": ""
+  },
+  {
+    "name": "React",
+    "ring": "adopt",
+    "quadrant": "languages & frameworks",
+    "isNew": "TRUE",
+    "description": ""
+  },
+  {
+    "name": "Redis",
+    "ring": "adopt",
+    "quadrant": "tools",
+    "isNew": "TRUE",
+    "description": ""
+  },
+  {
+    "name": "Salesforce",
+    "ring": "hold",
+    "quadrant": "platforms",
+    "isNew": "TRUE",
+    "description": ""
+  },
+  {
+    "name": "Scala",
+    "ring": "adopt",
+    "quadrant": "languages & frameworks",
+    "isNew": "TRUE",
+    "description": ""
+  },
+  {
+    "name": "Scalalikejdbc",
+    "ring": "adopt",
+    "quadrant": "languages & frameworks",
+    "isNew": "TRUE",
+    "description": ""
+  },
+  {
+    "name": "Terraform",
+    "ring": "adopt",
+    "quadrant": "platforms",
+    "isNew": "TRUE",
+    "description": ""
+  },
+  {
+    "name": "Typescript",
+    "ring": "adopt",
+    "quadrant": "languages & frameworks",
+    "isNew": "TRUE",
+    "description": ""
+  },
+  {
+    "name": "Hashicorp Vault",
+    "ring": "adopt",
+    "quadrant": "platforms",
+    "isNew": "TRUE",
+    "description": ""
   }
 ]
