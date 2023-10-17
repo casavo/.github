@@ -671,5 +671,12 @@
     "quadrant": "platforms",
     "isNew": "TRUE",
     "description": "Some non-production load of our infrastructure is hosted on Hetzner Cloud (e.g. GH runners, monitoring tools, VPN servers). The use of Hetzner Cloud amortises costs as instances are generally cheaper than AWS."
+  },
+  {
+    "name": "ktor",
+    "ring": "trial",
+    "quadrant": "languages & frameworks",
+    "isNew": "TRUE",
+    "description": "Written in Kotlin, Ktor uses language features such as coroutines which allows for an asynchronous non-blocking implementation. The flexibility to incorporate different tools for logging, DI or a templates engine—in addition to its lightweight architecture—makes Ktor an interesting option for our teams for creating RESTful services."
   }
 ]
