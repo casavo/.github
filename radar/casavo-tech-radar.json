@@ -1,10 +1,10 @@
 [
   {
     "name": "structurizr",
-    "ring": "adopt",
+    "ring": "hold",
     "quadrant": "tools",
-    "isNew": "FALSE",
-    "description": "Diagrams for architecture ..."
+    "isNew": "TRUE",
+    "description": "Diagrams for architecture. Not used for a long time, maintaining is complex. Hold"
   },
   {
     "name": "Amazon Web Services",
