@@ -7,13 +7,6 @@
     "description": "Diagrams for architecture ..."
   },
   {
-    "name": "Amazon Web Services",
-    "ring": "adopt",
-    "quadrant": "platforms",
-    "isNew": "FALSE",
-    "description": "Single place for many services ..."
-  },
-  {
     "name": "Elixir",
     "ring": "adopt",
     "quadrant": "languages & frameworks",
