@@ -664,5 +664,12 @@
     "quadrant": "platforms",
     "isNew": "TRUE",
     "description": "To store some secrets (mostly staging and devops tools)"
+  },
+  {
+    "name": "Hetzner",
+    "ring": "adopt",
+    "quadrant": "platforms",
+    "isNew": "TRUE",
+    "description": "Some non-production load of our infrastructure is hosted on Hetzner Cloud (e.g. GH runners, monitoring tools, VPN servers). The use of Hetzner Cloud amortises costs as instances are generally cheaper than AWS."
   }
 ]
