@@ -4,7 +4,8 @@
 
 ## Quadrants
 
-The quadrants represent different kinds of blips.
+The quadrants represent different kinds of blips. 
+A "blip" refers to an individual technology or technique that is being assessed and tracked on the Tech Radar.
 
 | quadrant | explanation |
 | -- | -- |
