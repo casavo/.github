@@ -1,6 +1,5 @@
 # Casavo Tech Radar
-
-* [View online on casavo.com](https://techradar.casavo.com/)
+[View online on casavo.com](https://techradar.casavo.com/).
 
 ## Quadrants
 
