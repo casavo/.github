@@ -259,7 +259,7 @@
     "description": "Full stack web framework for Python"
   },
   {
-    "name": "Github Actions",
+    "name": "GitHub Actions",
     "ring": "adopt",
     "quadrant": "platforms",
     "isNew": "FALSE",
