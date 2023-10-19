@@ -246,10 +246,10 @@
   },
   {
     "name": "luigi",
-    "ring": "assess",
+    "ring": "hold",
     "quadrant": "languages & frameworks",
     "isNew": "FALSE",
-    "description": "Build pipelines of long-running batch processes for Python -- https://luigi.readthedocs.io/en/stable/ "
+    "description": "Build pipelines of long-running batch processes for Python. Superseeded by Argo Workflows"
   },
   {
     "name": "Emmett",
