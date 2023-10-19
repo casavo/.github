@@ -589,7 +589,7 @@
     "description": "For search (user feature) and logs (dev feature)"
   },
   {
-    "name": "Gitlab",
+    "name": "GitLab",
     "ring": "adopt",
     "quadrant": "platforms",
     "isNew": "TRUE",
