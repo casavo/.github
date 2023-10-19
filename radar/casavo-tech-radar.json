@@ -578,7 +578,7 @@
     "ring": "adopt",
     "quadrant": "platforms",
     "isNew": "TRUE",
-    "description": "For staging"
+    "description": "Used to orchestrate containers in AWS ecosystem on italian side and for staging only on french side"
   },
 
   {
