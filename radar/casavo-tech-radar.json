@@ -553,7 +553,7 @@
     "description": "Used to check terraform transformations"
   },
   {
-    "name": "AWS RDS Mysql",
+    "name": "AWS RDS MySQL",
     "ring": "hold",
     "quadrant": "platforms",
     "isNew": "TRUE",
@@ -621,7 +621,7 @@
     "ring": "hold",
     "quadrant": "platforms",
     "isNew": "TRUE",
-    "description": "To protect several services like redis and the eks cluster"
+    "description": "To protect several services like Redis and the EKS cluster"
   },
   {
     "name": "Play",
@@ -656,14 +656,14 @@
     "ring": "adopt",
     "quadrant": "languages & frameworks",
     "isNew": "TRUE",
-    "description": "Used for Mysql/Scala communication"
+    "description": "Used for MySQL/Scala communication"
   },
   {
     "name": "Terraform",
     "ring": "adopt",
     "quadrant": "platforms",
     "isNew": "TRUE",
-    "description": "Some of the infrastructure is based on terraform (roles Mysql, eks) "
+    "description": "Some of the infrastructure is based on terraform (roles MySQL, EKS) "
   },
   {
     "name": "Hashicorp Vault",
