@@ -543,7 +543,7 @@
     "ring": "assess",
     "quadrant": "platforms",
     "isNew": "TRUE",
-    "description": "To search listings on proprioo website"
+    "description": "We use Algolia (a hosted version of Elasticsearch) to search listings on proprioo website"
   },
   {
     "name": "Atlantis",
