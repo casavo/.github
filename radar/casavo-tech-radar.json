@@ -308,7 +308,7 @@
     "description": "Visualize observability metrics"
   },
   {
-    "name": "Newrelic",
+    "name": "New Relic",
     "ring": "adopt",
     "quadrant": "platforms",
     "isNew": "FALSE",
