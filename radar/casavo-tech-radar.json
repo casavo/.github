@@ -560,7 +560,7 @@
     "description": "To store all data about listings, brokers and users"
   },
   {
-    "name": "Bigquery",
+    "name": "BigQuery",
     "ring": "assess",
     "quadrant": "platforms",
     "isNew": "TRUE",
