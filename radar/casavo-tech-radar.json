@@ -309,10 +309,10 @@
   },
   {
     "name": "New Relic",
-    "ring": "adopt",
+    "ring": "hold",
     "quadrant": "platforms",
-    "isNew": "FALSE",
-    "description": "Error alerting and APM, used on stacks where Sentry is not supported (i.e.: Quarkus). For other cases, use Sentry."
+    "isNew": "TRUE",
+    "description": "Error alerting and APM, used on stacks where Sentry is not supported (i.e.: Quarkus). We are moving to Sentry as APM and error-tracking platform."
   },
   {
     "name": "Sentry",
