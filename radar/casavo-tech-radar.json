@@ -469,6 +469,13 @@
     "description": "As in eXtreme Programming definition, teams must have common sets of coding practice, allowing to understand code with ease and encouraging collective ownership"
   },
   {
+    "name": "Collective Ownership",
+    "ring": "adopt",
+    "quadrant": "techniques",
+    "isNew": "FALSE",
+    "description": "encourages everyone to contribute new ideas to all segments of a project, meaning also projects not in the scope of the team. This is tightly coupled with coding standards and translates, for example, in having clear service name and meaningful READMEs"
+  },
+  {
     "name": "Domain-Driven Design",
     "ring": "adopt",
     "quadrant": "techniques",
