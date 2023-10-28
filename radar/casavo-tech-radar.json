@@ -442,7 +442,7 @@
   },
   {
     "name": "Ship / Show / Ask",
-    "ring": "trial",
+    "ring": "hold",
     "quadrant": "techniques",
     "isNew": "FALSE",
     "description": "A branching strategy that combines the features of Pull Requests with the ability to keep shipping changes. Changes are categorized as either Ship (merge into mainline without review), Show (open a pull request for review, but merge into mainline immediately), or Ask (open a pull request for discussion before merging) -- from https://martinfowler.com/articles/ship-show-ask.html"
