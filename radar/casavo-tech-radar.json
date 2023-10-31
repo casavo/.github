@@ -253,10 +253,10 @@
   },
   {
     "name": "Emmett",
-    "ring": "assess",
+    "ring": "hold",
     "quadrant": "languages & frameworks",
     "isNew": "FALSE",
-    "description": "Full stack web framework for Python"
+    "description": "Full stack web framework for Python. Used only for one svc."
   },
   {
     "name": "GitHub Actions",
