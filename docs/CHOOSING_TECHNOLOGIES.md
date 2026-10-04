@@ -1,64 +1,66 @@
-We use tech radar as a tool to support and inspire teams on choosing the most suited technology for new projects and features.
+# Choosing technologies
 
-Moreover, the tech radar can provide a place to share knowledge and experiences, by keeping a reference of technical decisions and observations.
+How we decide whether to bring a new technology into Casavo, and how we treat the ones we already
+use. "Technology" means a language, framework, tool, platform or technique; the same reasoning
+applies, on a smaller scale, to a single library or a CI action.
 
-On tech radar you can find a list of frameworks, tools, and platform, sliced by following criteria:
+## Where a technology stands
 
-* *ADOPT* - Technologies we have high confidence in to serve our purposes. **Low risk and recommended** to be widely used.
-* *TRIAL* - Technologies that we are using and have seen to solve a real problem. Slightly **more risky** than adopt, and with limited shared knowledge across organization.
-* *HOLD* - Technologies not recommended to be used for new project. Used previously by some teams or all teams, but superseded by other technologies.  Ideally, **should be dismissed** as soon as possible on exiting projects.
-* *ASSESS* - Technologies used in our organization, but unproven. You may find teams that have started a prototyping effort, but invest on them has the **higher risks**.
+Every technology we use is in one of four states:
 
-# Technology Life Cycle
- 
-Ideally, technologies in Casavo should have the following life cycle:
+- **Adopt**: we have high confidence it serves our purposes. Low risk, recommended for wide use.
+- **Trial**: we use it and have seen it solve a real problem, but shared knowledge is still
+  limited. Somewhat riskier than Adopt.
+- **Assess**: in use somewhere, but unproven: typically a prototype or a first project. The
+  highest risk; invest in it knowingly.
+- **Hold**: not to be used for new work. Used before, but superseded; ideally removed from existing
+  projects as soon as it is practical.
+
+## Life cycle
 
 ```mermaid
 flowchart LR
-    blip([A new Technology])
-    AS[ASSESS]
-    TR[TRIAL]
-    AD[ADOPT]
-    HO[HOLD]
-    valuateTrial{proven?}
-    valuateAdopt{relevant and used?}
-    valuateHold{still relevant?}
+    blip([A new technology])
+    AS[Assess]
+    TR[Trial]
+    AD[Adopt]
+    HO[Hold]
+    proven{Proven?}
+    used{Relevant and used?}
+    relevant{Still relevant?}
 
     blip --> AS
-    AS --> valuateTrial --> |Yes| TR
-    valuateTrial --> |No| HO
-    
-    TR --> valuateAdopt --> |Yes| AD
-    valuateAdopt --> |No| HO
-
-    AD --> valuateHold
-    valuateHold --> |No| HO
+    AS --> proven -->|Yes| TR
+    proven -->|No| HO
+    TR --> used -->|Yes| AD
+    used -->|No| HO
+    AD --> relevant
+    relevant -->|No| HO
 ```
 
-Note that:
-* a technology can move out from **ASSESS** if proven to fit its scope inside Casavo; previous chart shows it can move to **TRIAL**, but jump to **ADOPT** is admitted
-* advancement from **TRIAL** to **ADOPT** is related to our confidence on the technology, i.e. if it really fits its scope in Casavo and any team can knows it.
+- A technology leaves **Assess** once it has proven to fit its scope; it usually moves to Trial,
+  but can go straight to Adopt.
+- It moves from **Trial** to **Adopt** when we are confident it fits its scope and the whole team
+  can work with it.
 
-# How to Assess a New Technology
+## Assessing a new technology
 
-For a new technology, in order to be used as **ASSESS** the following conditions must be true:
+Before a new technology enters Assess, all of these must hold:
 
-* no other technology in Casavo is serving the exact same purpose or ...
-* ... the new technology will eventually supersede the used one if proven
-* it is a reference technology for its scope
-* it is community supported and maintained
-* it has no specific legal constraints
+- nothing we already use serves the same purpose, or the new one is meant to replace it if it
+  proves itself;
+- it is a reference technology for its scope;
+- it is supported and maintained by an active community or vendor;
+- it has no specific legal constraints.
 
-Other criteria you could evaluate are:
+Other criteria worth weighing:
 
-* project age and maturity
-* release velocity and stability
-* security
-* standards and ecosystem
-* usability in non-production environment
-* cost (particularly relevant for infrastructural technologies and tools)
+- age and maturity of the project;
+- release pace and stability;
+- security record;
+- standards and ecosystem;
+- how well it works outside production (local development, tests, CI);
+- cost, especially for infrastructure and tools.
 
-> **NOTE** Same criteria should be evaluated and applied for other technological *blips*
-> that will not appear on tech radar, for instance GitHub Actions or single project dependencies.
-> Due the wide and large amount of dependencies we need to build working software, only main 
-> *blips* will be added on tech radar itself.
+Record the decision, and the reasons for it, next to the code it affects (an architecture decision
+record in the repository is the usual place), so the next person can see why it was chosen.
